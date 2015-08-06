@@ -1,0 +1,20 @@
+{
+  "name": "accesto/polish-holidays",
+  "description": "Library that allows to check if given date is a polish holiday - including fixed and moveable feast",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michał Kurzeja",
+      "email": "mkurzeja@accesto.pl"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9"
+  },
+  "autoload": {
+    "psr-0": {
+      "Accesto": "src"
+    }
+  }
+}

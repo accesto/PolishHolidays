@@ -1,2 +1,4 @@
 ~.php
 phpunit.xml
+vendor
+composer.lock

@@ -26,19 +26,19 @@ class Calendar
         $calendar = new static;
 
         $calendar->addHoliday(new FixedHoliday('Nowy Rok', 1, 1));
-        $calendar->addHoliday(new FixedHoliday('Trzech Króli', 1, 6));
-        $calendar->addHoliday(new FixedHoliday('Święto Pracy', 5, 1));
-        $calendar->addHoliday(new FixedHoliday('Trzeciego Maja', 5, 3));
+        $calendar->addHoliday(new FixedHoliday('Święto Trzech Króli', 1, 6));
+        $calendar->addHoliday(new FixedHoliday('Święto Państwowe', 5, 1));
+        $calendar->addHoliday(new FixedHoliday('Święto Narodowe Trzeciego Maja', 5, 3));
         $calendar->addHoliday(new FixedHoliday('Wniebowzięcie Najświętszej Maryi Panny', 8, 15));
         $calendar->addHoliday(new FixedHoliday('Wszystkich Świętych', 11, 1));
-        $calendar->addHoliday(new FixedHoliday('Narowode Świeto Niepodległosci', 11, 11));
-        $calendar->addHoliday(new FixedHoliday('Boże Narodzenie', 12, 25));
+        $calendar->addHoliday(new FixedHoliday('Narodowe Święto Niepodległości', 11, 11));
+        $calendar->addHoliday(new FixedHoliday('pierwszy dzień Bożego Narodzenia', 12, 25));
         $calendar->addHoliday(new FixedHoliday('drugi dzień Bożego Narodzenia', 12, 26));
 
         $calendar->addHoliday(new EasterHoliday('pierwszy dzień Wielkiej Nocy', 0));
         $calendar->addHoliday(new EasterHoliday('drugi dzień Wielkiej Nocy', 1));
-        $calendar->addHoliday(new EasterHoliday('Zesłanie Ducha Świętego', 49));
-        $calendar->addHoliday(new EasterHoliday('Boże Ciało', 60));
+        $calendar->addHoliday(new EasterHoliday('pierwszy dzień Zielonych Świątek', 49));
+        $calendar->addHoliday(new EasterHoliday('dzień Bożego Ciała', 60));
 
         return $calendar;
     }
